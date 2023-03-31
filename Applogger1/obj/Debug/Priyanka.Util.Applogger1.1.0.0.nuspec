@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Priyanka.Util.Applogger1</id>
+    <version>1.0.0</version>
+    <title>Applogger1</title>
+    <authors>Priyanka</authors>
+    <description>Library to log text to console</description>
+    <releaseNotes>First release of package</releaseNotes>
+    <repository type="git" url="https://github.com/Priyanka-Inflectionzone/nugetdemo.git" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\rajve\source\repos\Applogger1\Applogger1\bin\Debug\net6.0\Applogger1.dll" target="lib\net6.0\Applogger1.dll" />
+  </files>
+</package>
