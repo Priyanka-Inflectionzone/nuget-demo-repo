@@ -3,8 +3,8 @@ name: "Deploy to NuGet"
 on:
   push:
     branches: master
-    tags:
-    - 'v*'
+#     tags:
+#     - 'v*'
 
 env:
   PROJECT_PATH: 'Applogger1/Applogger1.csproj'
