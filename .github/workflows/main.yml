@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_PATH: 'Applogger1/Applogger1.csproj'
   PACKAGE_OUTPUT_DIRECTORY: 'Applogger/bin/*'
-  NUGET_SOURCE_URL: 'https://api.nuget.org/v4/index.json'
+  NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 
 jobs:
   deploy:
@@ -21,7 +21,7 @@ jobs:
     - name: 'Install dotnet'
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '4.x.x'
+        dotnet-version: '3.1.x'
 
     - name: 'Restore packages'
       run: dotnet restore ${{ env.PROJECT_PATH }}
