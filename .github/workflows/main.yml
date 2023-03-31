@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_PATH: 'Applogger1/Applogger1.csproj'
   PACKAGE_OUTPUT_DIRECTORY: 'Applogger/bin/*'
-  NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
+  NUGET_SOURCE_URL: 'https://api.nuget.org/v4/index.json'
 
 jobs:
   deploy:
